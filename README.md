@@ -15,3 +15,18 @@ To execute pmd run
 cd benchmarks/
 ant pmd
 java -jar dacapo.jar pmd -s custom
+
+## luindex
+luindex can be accessed through already compiled dacapo benchmarks. dacapo/cnf/luindex.cnf is the configuration file of luindex. Arguments for custom size "luindex/scammell", "luindex/galaxy" are present in dacapo/data/luindex.zip. 
+
+To execute luindex run
+
+cd dacapo
+java Harness luindex -s custom
+
+## lusearch
+Similar to luindex, lusearch can be executed from compiled dacapo files. dacapo/cnf/lusearch.cnf is the configuration file of lusearch. Arguments for custom size are present in dacapo/scratch/lusearch/index-custom. These files were generated using luindex's custom size.
+
+TODO: Add how to generate segments file using luindex 
+
+

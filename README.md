@@ -29,4 +29,7 @@ Similar to luindex, lusearch can be executed from compiled dacapo files. dacapo/
 
 TODO: Add how to generate segments file using luindex 
 
+## xalan
+xalan benchmark can be executed from compiled dacapo files. xalan transforms a set of XML files. Unfortunately, there is no way to express different XML files as arguments to xalan. Hence, there is no custom input size here. Add more XML files in dacapo/data/xalan.zip/xalan. A few JikesRVM's XML files have already been added there. These are build.xml, base.xml. 
+
 

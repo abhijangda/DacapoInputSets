@@ -18,6 +18,18 @@ ant pmd
 
 java -jar dacapo.jar pmd -s custom
 
+### pmd - alternative
+
+pmd can be run with already compiled dacapo benchmarks. `dacapo/cnf/pmd.cnf` is the configuration file. Arguments for custom size are present in this file. The archive dacapo/dat/pmd.zip contains the java source files to be processed and the rvm.lst file listing these source file paths. The argument "@pmd/rvm.lst" refers to this list.
+
+To execute pmd run
+
+```
+cd dacapo
+
+java Harness readme -s custom
+```
+
 ## luindex
 luindex can be accessed through already compiled dacapo benchmarks. dacapo/cnf/luindex.cnf is the configuration file of luindex. Arguments for custom size "luindex/scammell", "luindex/galaxy" are present in dacapo/data/luindex.zip. 
 

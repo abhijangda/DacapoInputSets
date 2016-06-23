@@ -13,7 +13,9 @@ pmd benchmark has to be build before using the "custom" input set. benchmarks/bm
 To execute pmd run
 
 cd benchmarks/
+
 ant pmd
+
 java -jar dacapo.jar pmd -s custom
 
 ## luindex
@@ -22,6 +24,7 @@ luindex can be accessed through already compiled dacapo benchmarks. dacapo/cnf/l
 To execute luindex run
 
 cd dacapo
+
 java Harness luindex -s custom
 
 ## lusearch

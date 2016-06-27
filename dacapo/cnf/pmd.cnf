@@ -74,7 +74,7 @@ size large args "@pmd/large.lst","text",
   output 
     stderr digest 0xda39a3ee5e6b4b0d3255bfef95601890afd80709;
 
-size custom args "@pmd/large.lst", "@pmd/rvm.lst","text",
+size custom args "@pmd/rvm.lst","text",
         "pmd/rulesets/basic.xml",
         "pmd/rulesets/braces.xml",
 		"pmd/rulesets/codesize.xml",

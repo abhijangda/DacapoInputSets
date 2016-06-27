@@ -39,7 +39,7 @@ size large args "-seconds=30",
 	"test/tinyos/SenseToLeds.elf",
 	"test/tinyos/XnpRfmToLeds.elf",
 	"test/tinyos/RadioSenseToLeds_mica2.elf",
-	"test/tinyos/SecureTOSBase.elf";
+	"test/tinyos/SecureTOSBase.elf"
   output 
     	 stderr digest 0xda39a3ee5e6b4b0d3255bfef95601890afd80709;
 
@@ -61,7 +61,7 @@ size custom args "-seconds=30",
 	"test/tinyos/TestUart.elf",
 	"test/tinyos/TestTinyViz.elf",
 	"test/tinyos/TestTinySec.elf",
-	"test/tinyos/TestTinyAlloc.elf";
+	"test/tinyos/TestTinyAlloc.elf"
   output 
     	 stderr digest 0xda39a3ee5e6b4b0d3255bfef95601890afd80709;
 
